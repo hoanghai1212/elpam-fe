@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
         {home ? (
           <>
             <div className={styles.banner}>
-              <Image priority src="/images/banner.jpg" layout="intrinsic" width="1125px" height="900px" objectFit="cover" alt={name} />
+              <Image priority src="https://drive.google.com/file/d/1ho0I7kouk3gNPr6FAbxEcMj-ze48CEe2/view?usp=sharing" layout="intrinsic" width="1125px" height="900px" objectFit="cover" alt={name} />
             </div>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
