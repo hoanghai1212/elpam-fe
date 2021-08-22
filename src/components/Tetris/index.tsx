@@ -89,7 +89,7 @@ const Tetris = () => {
 	};
 
 	const dropTetro = () => {
-		setDroptime(null);
+		setDroptime(99999);
 		drop();
 	};
 
